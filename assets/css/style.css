@@ -1,0 +1,72 @@
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+section .container .row .col-xl-3 .two {
+    text-decoration: line-through;
+}
+
+section .container .row .col-xl-3 {
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 1px 4px;
+}
+
+section .container .three {
+    justify-content: space-around;
+}
+
+section .container .row .col-xl-3 .one {
+    color: red;
+    font-weight: bold;
+}
+
+section .container .row a {
+    background-color: black;
+    color: white;
+}
+
+section .container .row a:hover {
+    background-color: transparent;
+    color: black;
+    outline: 1px solid black;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
+footer .row{
+    justify-content: space-between;
+}
+footer .row .col-lg-2 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .row .col-lg-2 ul {
+    list-style-type: none;
+    color: #fff;
+}
+footer .row .project ul{
+    list-style-type: none;
+}
+footer .row .project ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .community ul{
+    list-style: none;
+}
+footer .community ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#Details .container .row {
+    justify-content: space-between;
+    align-items: center;
+}
